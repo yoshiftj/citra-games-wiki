@@ -137,7 +137,7 @@ The required process for getting eShop only boxart is:
 - Screenshot the title screen, which should only be the top screen.
 - Downsize it to approximately `500x300` using [PicResize](http://www.picresize.com/).
 - Compress it using [TinyPNG](https://tinypng.com/).
-- Examples are [Legend of Zelda](https://github.com/citra-emu/citra-games-wiki/blob/master/games/legend-of-zelda/boxart.png) and [Tetris](https://github.com/citra-emu/citra-games-wiki/blob/master/games/tetris/boxart.png)
+- Examples are [Fairune](https://github.com/citra-emu/citra-games-wiki/blob/master/games/fairune/boxart.png) and [Pokémon Picross](https://github.com/citra-emu/citra-games-wiki/blob/master/games/pokemon-picross/boxart.png)
 
 The required process for getting virtual console boxart is:
 - Run the game in Citra (See: [Citra Version](#citra-version)).
