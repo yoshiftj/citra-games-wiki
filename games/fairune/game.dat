@@ -12,7 +12,7 @@ release_date = "2014-12-18"
 [[testcases]]
 title = "0004000000158700"
 compatibility = "2"
-date = "2014-11-04"
+date = "2017-11-04"
 version = "HEAD-c6b2cc2"
 cpu = "Intel Xeon E31240"
 gpu = "NVIDIA GeForce GTX 750"
