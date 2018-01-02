@@ -200,14 +200,14 @@ function validateTOML(path) {
         section.forEach(release => {
             validateContents(release, "title", field => {
                 if (field.length !== 16) {
-                    validationError(`Release #${i + 1}: Game title ID has an invalid length`);
+                    validationError(`Release: Game title ID has an invalid length`);
                 } else if (!field.match(/^([A-Z0-9]){16}$/)) {
-                    validationError(`Release #${i + 1}: Game title ID is not a hexadecimal ID`);
+                    validationError(`Release: Game title ID is not a hexadecimal ID`);
                 }
             });
             validateContents(release, "region", field => {
                 if (config.regions.indexOf(field) === -1) {
-                    validationError(`Release #${i + 1}: Invalid region ${field}`);
+                    validationError(`Release: Invalid region ${field}`);
                 }
             });
             validateIsDate(release, "release_date");
@@ -224,9 +224,9 @@ function validateTOML(path) {
         section.forEach(testcase => {
             validateContents(testcase, "title", field => {
                 if (field.length !== 16) {
-                    validationError(`Testcase #${i + 1}: Game title ID has an invalid length`);
+                    validationError(`Testcase: Game title ID has an invalid length`);
                 } else if (!field.match(/^([A-Z0-9]){16}$/)) {
-                    validationError(`Testcase #${i + 1}: Game title ID is not a hexadecimal ID`);
+                    validationError(`Testcase: Game title ID is not a hexadecimal ID`);
                 }
             });
 
@@ -241,9 +241,9 @@ function validateTOML(path) {
             validateIsDate(testcase, "date");
             validateContents(testcase, "version", test => {
                 if (test.length !== 12) {
-                    validationError(`Testcase #${i + 1}: Version is of incorrect length`);
+                    validationError(`Testcase: Version is of incorrect length`);
                 } else if (!test.startsWith("HEAD-")) {
-                    validationError(`Testcase #${i + 1}: Unknown version commit source`);
+                    validationError(`Testcase: Unknown version commit source`);
                 }
             });
             validateNotEmpty(testcase, "author");
