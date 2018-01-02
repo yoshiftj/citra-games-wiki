@@ -192,7 +192,6 @@ function validateTOML(path) {
     }
 
     let section;
-    let i;
 
     // Check each release individually
     if (tomlDoc["releases"] !== undefined) {
