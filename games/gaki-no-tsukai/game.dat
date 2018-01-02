@@ -4,12 +4,12 @@ needs_system_files = false
 needs_shared_font = false
 
 [[ releases ]]
-title = "000400000017d800"
+title = "000400000017D800"
 region = "jpn"
 release_date = "2015-12-17"
 
 [[ testcases ]]
-title = "000400000017d800"
+title = "000400000017D800"
 compatibility = "0"
 date = "2017-06-10"
 version = "HEAD-8f0a23b"

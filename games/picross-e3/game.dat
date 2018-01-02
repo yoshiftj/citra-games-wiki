@@ -5,7 +5,7 @@ needs_shared_font = false
 game_type = "eshop"
 
 [[ releases ]]
-title = "0004000000101d00"
+title = "0004000000101D00"
 region = "usa"
 release_date = "2013-10-03"
 
@@ -15,7 +15,7 @@ region = "eur"
 release_date = "2013-12-14"
 
 [[ releases ]]
-title = "00040000000eea00"
+title = "00040000000EEA00"
 region = "jpn"
 release_date = "2013-06-12"
 

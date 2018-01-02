@@ -5,12 +5,12 @@ needs_shared_font = false
 game_type = "eshop"
 
 [[ releases ]]
-title = "00040000001b6700"
+title = "00040000001B6700"
 region = "jpn"
 release_date = "2017-01-25"
 
 [[ testcases ]]
-title = "00040000001b6700"
+title = "00040000001B6700"
 compatibility = "0"
 date = "2017-06-10"
 version = "HEAD-9a8a90b"

@@ -9,12 +9,12 @@ region = "jpn"
 release_date = "2015-11-03"
 
 [[releases]]
-title = "0004000000119a00"
+title = "0004000000119A00"
 region = "usa"
 release_date = "2015-11-03"
 
 [[releases]]
-title = "000400000012cb00"
+title = "000400000012CB00"
 region = "eur"
 release_date = "2015-11-03"
 
@@ -29,7 +29,7 @@ os = "Windows 7 7601"
 author = "flaviculpus"
 
 [[testcases]]
-title = "0004000000119a00"
+title = "0004000000119A00"
 compatibility = "0"
 date = "2017-10-24"
 version = "HEAD-e9d1e8c"

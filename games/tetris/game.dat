@@ -7,12 +7,12 @@ game_type = "vc"
 vc_system = "gb"
 
 [[ releases ]]
-title = "000400000007e700"
+title = "000400000007E700"
 region = "usa"
 release_date = "2011-12-22"
 
 [[ testcases ]]
-title = "000400000007e700"
+title = "000400000007E700"
 compatibility = "1"
 date = "2017-06-04"
 version = "HEAD-8f0a23b"

@@ -201,7 +201,7 @@ function validateTOML(path) {
             validateContents(release, "title", field => {
                 if (field.length !== 16) {
                     validationError(`Release #${i + 1}: Game title ID has an invalid length`);
-                } else if (!field.match(/^([a-zA-Z0-9]){16}$/)) {
+                } else if (!field.match(/^([A-Z0-9]){16}$/)) {
                     validationError(`Release #${i + 1}: Game title ID is not a hexadecimal ID`);
                 }
             });
@@ -225,7 +225,7 @@ function validateTOML(path) {
             validateContents(testcase, "title", field => {
                 if (field.length !== 16) {
                     validationError(`Testcase #${i + 1}: Game title ID has an invalid length`);
-                } else if (!field.match(/^([a-zA-Z0-9]){16}$/)) {
+                } else if (!field.match(/^([A-Z0-9]){16}$/)) {
                     validationError(`Testcase #${i + 1}: Game title ID is not a hexadecimal ID`);
                 }
             });
@@ -261,9 +261,6 @@ function validateTOML(path) {
             validationError("Test case dates are not properly sorted in ascending order.");
         });
     }
-    /* else {
-        validationError("No testcases.")
-    }*/
 
     // We only check these if we have a known test result (we cannot know if a game needs
     //  resources if it doesn't even run!)
@@ -291,7 +288,7 @@ function validateSaveTOML(path) {
     validateContents(tomlDoc, "title_id", field => {
         if (field.length !== 16) {
             validationError(`Game save data: Game title ID has an invalid length`);
-        } else if (!field.match(/^([a-zA-Z0-9]){16}$/)) {
+        } else if (!field.match(/^([A-Z0-9]){16}$/)) {
             validationError(`Game save data: Game title ID is not a hexadecimal ID`);
         }
     });
