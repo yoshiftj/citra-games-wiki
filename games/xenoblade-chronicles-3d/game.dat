@@ -1,5 +1,6 @@
 title = "Xenoblade Chronicles 3D"
-description = "Category: Role-Playing\nPublisher: Nintendo\nDeveloper: Monolith Soft \n\nTake up arms against an invading army in this remake of an acclaimed RPG, only on the New Nintendo 3DS™ XL system. Explore vast landscapes and beat down foes in battles that blend real time action with RPG strategy. Exclusive features make the Xenoblade Chronicles™ 3D game the ultimate way to learn the truth behind the mythical sword, the Monado."
+description = "Xenoblade Chronicles 3D is an action role-playing game developed by Monster Games and released exclusive for New Nintendo 3DS. It is a port of the Wii title Xenoblade Chronicles and features StreetPass functionality, as well as compatibility with the Shulk Amiibo."
+github_issues = [3343]
 needs_system_files = false
 needs_shared_font = false
 
