@@ -7,3 +7,13 @@ needs_shared_font = false
 title = "00040000001C5100"
 region = "usa"
 release_date = "2017-10-17"
+
+[[releases]]
+title = "00040000001C5300"
+region = "eur"
+release_date = "2017-11-03"
+
+[[releases]]
+title = "000400000018D000"
+region = "jpn"
+release_date = "2016-08-04"
