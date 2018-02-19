@@ -127,7 +127,7 @@ The icon for a game is located at `/<Game Name>/icon.png` (See: [Screenshots](#s
 The boxart for the game is located at `/<Game Name>/boxart.png`. The suggested process for getting retail boxart is:
 - Download a scan from [GameTDB](http://www.gametdb.com/), preferably with the `Nintendo 3DS` logo on the right.
 - The boxart should be from the USA.
-- Downsize it to approximately `328x300` using [PicResize](http://www.picresize.com/).
+- Downsize it to `328x300` using [PicResize](http://www.picresize.com/).
 - Compress it using [TinyPNG](https://tinypng.com/).
 
 The required process for getting eShop only boxart is:
@@ -135,7 +135,7 @@ The required process for getting eShop only boxart is:
 - Use 1x internal resolution.
 - Increase the window size of Citra to fill most of your monitor.
 - Screenshot the title screen, which should only be the top screen.
-- Downsize it to approximately `500x300` using [PicResize](http://www.picresize.com/).
+- Downsize it to `500x300` using [PicResize](http://www.picresize.com/).
 - Compress it using [TinyPNG](https://tinypng.com/).
 - Examples are [Fairune](https://github.com/citra-emu/citra-games-wiki/blob/master/games/fairune/boxart.png) and [Pokémon Picross](https://github.com/citra-emu/citra-games-wiki/blob/master/games/pokemon-picross/boxart.png)
 
@@ -144,7 +144,7 @@ The required process for getting virtual console boxart is:
 - Use 1x internal resolution.
 - Increase the window size of Citra to fill most of your monitor.
 - Screenshot the title screen, which should only be the top screen.
-- Downsize it to approximately `328x300` using [PicResize](http://www.picresize.com/).
+- Downsize it to `328x300` using [PicResize](http://www.picresize.com/).
 - Compress it using [TinyPNG](https://tinypng.com/).
 - Examples are [Legend of Zelda](https://github.com/citra-emu/citra-games-wiki/blob/master/games/legend-of-zelda/boxart.png) and [Tetris](https://github.com/citra-emu/citra-games-wiki/blob/master/games/tetris/boxart.png)
 
