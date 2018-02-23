@@ -1,5 +1,6 @@
 title = "Project X Zone 2"
-description = "Like its predecessor, Project X Zone 2 is a tactical role-playing game in which players strategically maneuver their characters across a field to battle with the enemy. Characters are paired up into Pair Units, with Solo Units consisting of a single character able to assist them when linked together. In battle, players use well-timed attacks and combos to do as much damage to the opponent as possible before their turn ends."
+description = "Project X Zone 2 is a crossover tactical role-playing game for the Nintendo 3DS developed by Monolith Soft and published by Bandai Namco Entertainment."
+incomplete = true
 needs_system_files = false
 needs_shared_font = false
 
@@ -7,3 +8,18 @@ needs_shared_font = false
 title = "0004000000160C00"
 region = "usa"
 release_date = "2016-02-16"
+
+[[releases]]
+title = "0004000000162000"
+region = "eur"
+release_date = "2016-02-16"
+
+[[releases]]
+title = "000400000014FB00"
+region = "jpn"
+release_date = "2015-11-12"
+
+[[releases]]
+title = "000400000014FC00"
+region = "jpn"
+release_date = "2015-11-12"
