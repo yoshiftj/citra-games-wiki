@@ -5,9 +5,19 @@ needs_system_files = false
 needs_shared_font = false
 
 [[ releases ]]
+title = "00040000001A4800"
+region = "usa"
+release_date = "2017-06-23"
+
+[[ releases ]]
 title = "00040000001A4900"
 region = "eur"
 release_date = "2017-06-23"
+
+[[ releases ]]
+title = "0004000000164A00"
+region = "jpn"
+release_date = "2017-07-13"
 
 [[ testcases ]]
 title = "00040000001A4900"

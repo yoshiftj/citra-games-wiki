@@ -6,9 +6,14 @@ needs_shared_font = false
 game_type = "eshop"
 
 [[releases]]
+title = "000400000016D500"
+region = "usa"
+release_date = "2016-10-20"
+
+[[releases]]
 title = "000400000016CF00"
 region = "eur"
-release_date = "2016-10-20"
+release_date = "2016-10-27"
 
 [[testcases]]
 title = "000400000016CF00"

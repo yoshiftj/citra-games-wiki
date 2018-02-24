@@ -4,8 +4,18 @@ needs_system_files = false
 needs_shared_font = true
 
 [[releases]]
+title = "00040000001AFA00"
+region = "usa"
+release_date = "2017-07-28"
+
+[[releases]]
 title = "00040000001AF800"
 region = "eur"
+release_date = "2017-07-28"
+
+[[releases]]
+title = "00040000001A9200"
+region = "jpn"
 release_date = "2017-07-13"
 
 [[testcases]]

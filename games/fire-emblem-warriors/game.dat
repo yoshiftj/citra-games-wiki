@@ -4,6 +4,11 @@ needs_system_files = false
 needs_shared_font = false
 
 [[releases]]
+title = "000400000F70CC00"
+region = "usa"
+release_date = "2017-10-20"
+
+[[releases]]
 title = "000400000F70CD00"
 region = "eur"
 release_date = "2017-10-20"

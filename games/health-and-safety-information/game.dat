@@ -9,6 +9,16 @@ title = "0004001000021300"
 region = "usa"
 release_date = "2011-03-27"
 
+[[releases]]
+title = "0004001000022300"
+region = "eur"
+release_date = "2011-03-25"
+
+[[releases]]
+title = "0004001000020300"
+region = "jpn"
+release_date = "2011-02-26"
+
 [[ testcases ]]
  title = "0004001000021300"
  compatibility = "0"

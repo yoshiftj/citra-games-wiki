@@ -9,6 +9,11 @@ title = "0004000000158700"
 region = "usa"
 release_date = "2014-12-18"
 
+[[releases]]
+title = "0004000000148B00"
+region = "eur"
+release_date = "2014-12-11"
+
 [[testcases]]
 title = "0004000000158700"
 compatibility = "2"
