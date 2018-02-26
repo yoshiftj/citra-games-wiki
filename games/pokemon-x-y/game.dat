@@ -7,12 +7,12 @@ needs_shared_font = true
 
 [[ releases ]]
 title = "0004000000055D00"
-region = "usa"
+region = "all"
 release_date = "2013-10-12"
 
 [[ releases ]]
 title = "0004000000055E00"
-region = "usa"
+region = "all"
 release_date = "2013-10-12"
 
 [[ testcases ]]
