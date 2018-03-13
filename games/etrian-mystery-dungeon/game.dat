@@ -4,14 +4,14 @@ needs_system_files = true
 needs_shared_font = false
 
 [[ releases ]]
-title = "000400000016EA00"
-region = "eur"
-release_date = "2015-09-11"
-
-[[ releases ]]
 title = "000400000015B200"
 region = "usa"
 release_date = "2015-04-07"
+
+[[ releases ]]
+title = "000400000016EA00"
+region = "eur"
+release_date = "2015-09-11"
 
 [[ releases ]]
 title = "0004000000118300"

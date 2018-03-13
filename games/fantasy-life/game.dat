@@ -1,6 +1,5 @@
 title = "Fantasy Life"
-description = "Fantasy Life is a role-playing video game developed by Level-5, with production assistance from Brownie Brown and h.a.n.d. for the Nintendo 3DS. The game was previously being developed for the Nintendo DS."
-incomplete = true
+description = "Fantasy Life is a role-playing video game developed by Level-5, with production assistance from Brownie Brown and h.a.n.d. for the Nintendo 3DS. The game was previously being developed for the Nintendo DS. Fantasy Life Link! includes online play with friends, a rise in level cap, additional quests, and the ability to take screenshots, among others. The international version of Fantasy Life included all the additional content of Link!, with the exception of the Origin Island DLC."
 github_issues = [2276]
 needs_system_files = false
 needs_shared_font = false
@@ -14,6 +13,16 @@ release_date = "2014-10-24"
 title = "0004000000113100"
 region = "eur"
 release_date = "2014-09-26"
+
+[[releases]]
+title = "000400000006D200"
+region = "jpn"
+release_date = "2012-12-27"
+
+[[releases]]
+title = "00040000000E9C00"
+region = "jpn"
+release_date = "2013-07-25"
 
 [[testcases]]
 title = "0004000000113100"

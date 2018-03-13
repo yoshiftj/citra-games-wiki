@@ -5,13 +5,13 @@ needs_system_files = false
 needs_shared_font = false
 
 [[releases]]
-title = "000400000018F200"
-region = "eur"
+title = "000400000018F100"
+region = "usa"
 release_date = "2017-01-20"
 
 [[releases]]
-title = "000400000018F100"
-region = "usa"
+title = "000400000018F200"
+region = "eur"
 release_date = "2017-01-20"
 
 [[releases]]

@@ -12,7 +12,12 @@ release_date = "2016-02-20"
 [[ releases ]]
 title = "0004000000174400"
 region = "eur"
-release_date = "2016-02-20"
+release_date = "2016-02-19"
+
+[[ releases ]]
+title = "0004000000149B00"
+region = "jpn"
+release_date = "2015-09-17"
 
 [[ testcases ]]
 title = "0004000000174400"

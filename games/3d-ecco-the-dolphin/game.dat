@@ -5,11 +5,11 @@ needs_shared_font = false
 game_type = "eshop"
 
 [[releases]]
-title = "00040000000DE300"
-region = "eur"
+title = "00040000000D9E00"
+region = "usa"
 release_date = "2013-12-12"
 
 [[releases]]
-title = "00040000000D9E00"
-region = "usa"
+title = "00040000000DE300"
+region = "eur"
 release_date = "2013-12-12"

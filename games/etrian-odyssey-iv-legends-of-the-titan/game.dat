@@ -13,6 +13,11 @@ title = "00040000000EA600"
 region = "eur"
 release_date = "2013-08-30"
 
+[[ releases ]]
+title = "0004000000080100"
+region = "jpn"
+release_date = "2012-07-05"
+
 [[testcases]]
 title = "00040000000BD300"
 compatibility = "1"

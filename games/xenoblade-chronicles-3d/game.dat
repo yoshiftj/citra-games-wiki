@@ -8,3 +8,13 @@ needs_shared_font = false
 title = "000400000F700100"
 region = "usa"
 release_date = "2015-04-10"
+
+[[ releases ]]
+title = "000400000F700200"
+region = "eur"
+release_date = "2015-04-02"
+
+[[ releases ]]
+title = "000400000F700000"
+region = "jpn"
+release_date = "2015-04-02"

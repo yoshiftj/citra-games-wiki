@@ -4,9 +4,9 @@ needs_system_files = false
 needs_shared_font = true
 
 [[releases]]
-title = "0004000000065E00"
-region = "jpn"
-release_date = "2013-02-07"
+title = "000400000018EF00"
+region = "usa"
+release_date = "2016-09-16"
 
 [[releases]]
 title = "000400000018F000"
@@ -14,9 +14,9 @@ region = "eur"
 release_date = "2016-09-16"
 
 [[releases]]
-title = "000400000018EF00"
-region = "usa"
-release_date = "2016-09-16"
+title = "0004000000065E00"
+region = "jpn"
+release_date = "2013-02-07"
 
 [[testcases]]
 title = "000400000018F000"

@@ -3,19 +3,19 @@ description = "Shovel Knight is a 2D side-scrolling platform game presented in 8
 needs_system_files = false
 needs_shared_font = false
 
-[[releases]]
-title = "0004000000196900"
-region = "jpn"
-release_date = "2015-11-03"
-
-[[releases]]
+[[ releases ]]
 title = "0004000000119A00"
 region = "usa"
 release_date = "2015-11-03"
 
-[[releases]]
+[[ releases ]]
 title = "000400000012CB00"
 region = "eur"
+release_date = "2015-11-03"
+
+[[ releases ]]
+title = "0004000000196900"
+region = "jpn"
 release_date = "2015-11-03"
 
 [[testcases]]

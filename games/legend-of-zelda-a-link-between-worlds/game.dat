@@ -9,6 +9,16 @@ title = "00040000000EC300"
 region = "usa"
 release_date = "2013-11-22"
 
+[[ releases ]]
+title = "00040000000EC400"
+region = "eur"
+release_date = "2013-11-22"
+
+[[ releases ]]
+title = "00040000000EC200"
+region = "jpn"
+release_date = "2013-12-26"
+
 [[ testcases ]]
 title = "00040000000EC300"
 compatibility = "1"

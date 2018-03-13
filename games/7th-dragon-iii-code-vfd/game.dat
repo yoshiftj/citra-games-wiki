@@ -9,14 +9,14 @@ region = "usa"
 release_date = "2016-07-12"
 
 [[releases]]
-title = "0004000000115400"
-region = "jpn"
-release_date = "2015-10-15"
-
-[[releases]]
 title = "00040000001A6C00"
 region = "eur"
 release_date = "2016-12-02"
+
+[[releases]]
+title = "0004000000115400"
+region = "jpn"
+release_date = "2015-10-15"
 
 [[testcases]]
 title = "00040000001A6C00"

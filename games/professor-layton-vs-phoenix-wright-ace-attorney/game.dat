@@ -4,11 +4,6 @@ needs_system_files = false
 needs_shared_font = true
 
 [[ releases ]]
-title = "0004000000078B00"
-region = "jpn"
-release_date = "2012-11-29"
-
-[[ releases ]]
 title = "0004000000100700"
 region = "usa"
 release_date = "2014-08-29"
@@ -17,6 +12,11 @@ release_date = "2014-08-29"
 title = "0004000000100600"
 region = "eur"
 release_date = "2014-03-28"
+
+[[ releases ]]
+title = "0004000000078B00"
+region = "jpn"
+release_date = "2012-11-29"
 
 [[ testcases ]]
 title = "0004000000100700"

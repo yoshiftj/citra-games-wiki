@@ -3,7 +3,6 @@ description = "Kid Icarus: Uprising, known in Japan as New Light Mythology: Palu
 github_issues = [2238]
 needs_system_files = false
 needs_shared_font = true
-game_type = "3ds"
 incomplete = true
 
 [[ releases ]]

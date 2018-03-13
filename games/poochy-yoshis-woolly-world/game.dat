@@ -4,7 +4,17 @@ github_issues = [3055, 3321]
 needs_system_files = false
 needs_shared_font = true
 
-[[releases]]
+[[ releases ]]
 title = "00040000001A4100"
 region = "usa"
 release_date = "2017-02-03"
+
+[[ releases ]]
+title = "00040000001A4200"
+region = "eur"
+release_date = "2017-02-03"
+
+[[ releases ]]
+title = "00040000001A3200"
+region = "jpn"
+release_date = "2017-01-19"

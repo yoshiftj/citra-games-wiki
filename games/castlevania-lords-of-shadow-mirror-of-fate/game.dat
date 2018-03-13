@@ -10,14 +10,14 @@ region = "usa"
 release_date = "2013-03-05"
 
 [[ releases ]]
-title = "00040000000BAC00"
-region = "jpn"
-release_date = "2013-03-20"
-
-[[ releases ]]
 title = "000400000009E500"
 region = "eur"
 release_date = "2013-03-08"
+
+[[ releases ]]
+title = "00040000000BAC00"
+region = "jpn"
+release_date = "2013-03-20"
 
 [[ testcases ]]
 compatibility = "4"

@@ -1,8 +1,7 @@
 title = "Tetris Axis"
-description = "Tetris Axis, released as simply Tetris in some regions, is a puzzle video game for the Nintendo 3DS developed by Hudson Soft and Bandai and was published by Nintendo. The game was released in all regions in October 2011 and was published by Namco Bandai Games and Tetris Online, Inc. in Japan and PAL regions respectively."
+description = "Tetris Axis, released as simply Tetris in some regions, is a puzzle video game for the Nintendo 3DS developed by Hudson Soft and Bandai and was published by Nintendo."
 needs_system_files = true
 needs_shared_font = false
-game_type = "3ds"
 incomplete = true
 
 [[ releases ]]
