@@ -5,9 +5,9 @@ needs_system_files = true
 needs_shared_font = false
 
 [[releases]]
-title = "000400000017D500"
-region = "jpn"
-release_date = "2016-01-21"
+title = "000400000017EA00"
+region = "usa"
+release_date = "2016-03-25"
 
 [[releases]]
 title = "000400000017EB00"
@@ -15,9 +15,9 @@ region = "eur"
 release_date = "2016-03-24"
 
 [[releases]]
-title = "000400000017EA00"
-region = "usa"
-release_date = "2016-03-25"
+title = "000400000017D500"
+region = "jpn"
+release_date = "2016-01-21"
 
 [[testcases]]
 title = "000400000017EB00"
