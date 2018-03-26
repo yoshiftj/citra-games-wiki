@@ -7,7 +7,7 @@ needs_shared_font = false
 [[ releases ]]
 title = "0004000000049000"
 region = "usa"
-release_date = "2011-07-14"
+release_date = "2011-09-09"
 
 [[ releases ]]
 title = "0004000000049100"
