@@ -11,9 +11,14 @@ region = "usa"
 release_date = "2017-07-13"
 
 [[releases]]
-title = "00040000001BF000"
+title = "00040000001BF100"
 region = "eur"
 release_date = "2017-07-13"
+
+[[releases]]
+title = "00040000001C4800"
+region = "jpn"
+release_date = "2017-07-12"
 
 [[testcases]]
 title = "00040000001BF000"
