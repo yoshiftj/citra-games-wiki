@@ -79,13 +79,6 @@ The metadata for the game is located at `/<Game Name>/game.dat`. This is require
   - `release_date` (String): When the game was released in this region. See: [Dates](#dates).
 - `testcases` (Array of tables): Info about each submitted test case.
   - `title` (String): Title ID of this release of the game which was used during testing. See: [Title IDs](#title-ids).
-  - `compatibility` (String): How well the game works in Citra (See: [Citra Version](#citra-version)). A reference can be found [here](https://citra-emu.org/game/), with `Won't Boot` being `"5"`, and `Perfect` being `"0"`.
-  - `date` (String): Last date the game was tested on. See: [Dates](#dates).
-  - `version` (String): Last version of Citra (See: [Citra Version](#citra-version)) the game was tested on.
-  - `author` (String): Your forum account name, if you have one. If you don't, don't include this line.
-  - `cpu` (String): List your CPU following the example provided.
-  - `gpu` (String: List your GPU as recognized by Citra in the terminal.
-  - `os` (String): List your OS and version number following the example provided.
 
 An example of a game metadata file is the one for [The Legend of Zelda: Majora's Mask](https://github.com/citra-emu/citra-games-wiki/blob/master/games/legend-of-zelda-majoras-mask/game.dat):
 ```toml
@@ -104,16 +97,6 @@ release_date = "2015-02-13"
 title = "0004000000125600"
 region = "eur"
 release_date = "2015-02-13"
-
-[[ testcases ]]
-title = "0004000000125500"
-compatibility = "1"
-date = "2017-06-03"
-version = "HEAD-a7ddec8"
-author = "Flamboyant_Ham"
-cpu = "Intel Core i7-4720HQ"
-gpu = "Nvidia GeForce GTX 960M"
-os = "Windows 10 14393"
 ```
 
 ### Icon
