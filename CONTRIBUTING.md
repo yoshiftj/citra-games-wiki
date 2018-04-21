@@ -77,7 +77,6 @@ The metadata for the game is located at `/<Game Name>/game.dat`. This is require
     - `usa`
     - `all` (Don't tag a game released in multiple regions as `all`. This is reserved for specific games released as such.)
   - `release_date` (String): When the game was released in this region. See: [Dates](#dates).
-- `testcases` (Array of tables): Info about each submitted test case.
   - `title` (String): Title ID of this release of the game which was used during testing. See: [Title IDs](#title-ids).
 
 An example of a game metadata file is the one for [The Legend of Zelda: Majora's Mask](https://github.com/citra-emu/citra-games-wiki/blob/master/games/legend-of-zelda-majoras-mask/game.dat):
