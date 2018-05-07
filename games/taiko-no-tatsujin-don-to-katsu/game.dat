@@ -1,0 +1,9 @@
+title = "Taiko No Tatsujin Don To Katsu"
+description = "Literally \"Drum Master: Don and Katsu,\" rhythm game that features licensed and original songs and is played with the touchscreen and buttons to drum to a beat"
+needs_system_files = false
+needs_shared_font = false
+
+[[releases]]
+title = "0004000000102F00"
+region = "jpn"
+release_date = "2014-06-26"
