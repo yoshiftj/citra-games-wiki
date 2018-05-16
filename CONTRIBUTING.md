@@ -38,7 +38,9 @@ Game issues can be found [here](https://github.com/citra-emu/citra/issues). The 
 The recommended application for capturing the icon, boxart, and screenshots is [ShareX](https://github.com/ShareX/ShareX). Screenshots can not be compressed, and must be in the PNG format.
 
 ### Title IDs
-Title IDs can be found near the top of a log when running a game. For example, this is what it looks like for The Legend of Zelda: Ocarina of Time, 0004000000033500: `[   0.019882] Loader <Info> core/loader/ncch.cpp:Load:340: Program ID: 0004000000033500`.
+The title ID for a game is a unique ID representing that release of the game. Often, games released in multiple regions will have a different title ID for each, with the exception of some games like the main series Pokémon games. A database of such releases and their title IDs can be found [here](http://3dsdb.com/).
+
+To find the title ID of your release, it can be found near the top of a log when running a game. For example, this is what it looks like for The Legend of Zelda: Ocarina of Time, `0004000000033500`: `[   0.019882] Loader <Info> core/loader/ncch.cpp:Load:340: Program ID: 0004000000033500`.
 
 ### TOML
 In this repo, DAT files follow the [TOML](https://github.com/toml-lang/toml) syntax, where each line consists of the creation of a piece of data. The simplest form of this is assigning a value to a key (`<Key> = <Value>`). The data types used for these `Value`s in this wiki are:
@@ -77,7 +79,6 @@ The metadata for the game is located at `/<Game Name>/game.dat`. This is require
     - `usa`
     - `all` (Don't tag a game released in multiple regions as `all`. This is reserved for specific games released as such.)
   - `release_date` (String): When the game was released in this region. See: [Dates](#dates).
-  - `title` (String): Title ID of this release of the game which was used during testing. See: [Title IDs](#title-ids).
 
 An example of a game metadata file is the one for [The Legend of Zelda: Majora's Mask](https://github.com/citra-emu/citra-games-wiki/blob/master/games/legend-of-zelda-majoras-mask/game.dat):
 ```toml
@@ -134,9 +135,11 @@ The required process for getting virtual console boxart is:
 The screenshots for the game are located in `/<Game Name>/screenshots/` (See: [Screenshots](#screenshots)). Screenshots **must** follow these specifications:
   - Native resolution.
   - Smallest window size.
-  - Black background (For the blank space left and right of the bottom screen.). To achieve this, go to the [User Directory](https://citra-emu.org/wiki/user-directory/), and from there navigate to the `config` directory. Open qt-config.ini with a text editor, and set bg_blue, bg_green, and bg_red to 0.
+  - Have variety. In addition to, say, the title screen, you should also have screenshots of different areas of gameplay, unless the game crashes before then.
+  - Accurate file name. The file name should provide a general idea of what's being shown (e.g. `title-screen.png`, `lost-woods.png`, `level-3-4.png`).
+  - Black background (For the blank space left and right of the bottom screen.). This is the default setting, but if you've changed it, go to the [User Directory](https://citra-emu.org/wiki/user-directory/), and from there navigate to the `config` directory. Open qt-config.ini with a text editor, and set bg_blue, bg_green, and bg_red to 0.
 
-Additionally, if a game has a rating of 3 or higher, **you must include at least 3 screenshots**, otherwise 1 screenshot is acceptable. The names of the screenshots don't matter.
+Additionally, if a game has a rating of 3 or higher, **you must include at least 3 screenshots**, otherwise 1 screenshot is acceptable.
 
 ### Savefiles
 #### Save Metadata
@@ -144,7 +147,7 @@ The metadata for a save is located at `/<Game Name>/savefiles/<Save Name>.dat`. 
 - `title` (String): The location of the save ingame.
 - `description` (String): A brief explanation about the save.
 - `author` (String): Your forum account name, if you have one. If you don't, don't include this line.
-- `title_id` (String): Title ID of the game.
+- `title_id` (String): Title ID of the game. See: [Title IDs](#title-ids).
 
 #### Save Data
 The save data is located at `/<Game Name>/savefiles/<Save Name>.zip` (See: [Citra Version](#citra-version)). To make a ZIP file, the process is:
@@ -163,7 +166,7 @@ Each page's title should match the game's respective folder in the code section,
 
 The format of each page is as follows:
 - H2 header with text saying `Summary`.
-- Brief summary of how the game performs: graphically, auditorily, and frame rate (with general hardware comparison - see MK7 example). See: [Citra Version](#citra-version).
+- Brief summary of how the game performs: graphically, auditorily, and frame rate (with general hardware comparison - see MK7 example). This should be written objectively, without the use of words like "I". See: [Citra Version](#citra-version).
 
 An example of a game wiki page is the one for [Mario Kart 7](https://github.com/citra-emu/citra-games-wiki/wiki/Mario-Kart-7):
 ```markdown
