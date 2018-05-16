@@ -14,14 +14,14 @@ region = "eur"
 release_date = "2014-03-28"
 
 [[ releases ]]
+title = "0004000000100500"
+region = "eur"
+release_date = "2014-03-28"
+
+[[ releases ]]
 title = "0004000000078B00"
 region = "jpn"
 release_date = "2012-11-29"
-
-[[ releases ]]
-title = "0004000000100500"
-region = "eur"
-release_date = "2012-11-28"
 
 [[ testcases ]]
 title = "0004000000100700"
