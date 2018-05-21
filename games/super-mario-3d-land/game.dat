@@ -1,6 +1,6 @@
 title = "Super Mario 3D Land"
 description = "Super Mario 3D Land is a platform game in the Super Mario series developed by Nintendo EAD Tokyo, with development assistance from Brownie Brown, for the Nintendo 3DS. This game was the first in the Mario franchise to be released for the 3DS."
-github_issues = [2489]
+github_issues = [2489, 2791, 3743]
 needs_system_files = true
 needs_shared_font = false
 
