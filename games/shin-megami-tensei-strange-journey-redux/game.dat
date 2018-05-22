@@ -1,5 +1,6 @@
-title = "Shin Megami Tensei - Strange Journey Redux"
-description = "Expands upon the original DS offering by expanding gameplay, content and plot while staying true to the strengths of the original, and of the franchise itself: dungeon exploration, negotiation with supernatural creatures, fusions and the usual moral quandaries the player must face while accepting the results of one's choices."
+title = "Shin Megami Tensei: Strange Journey Redux"
+description = "Shin Megami Tensei: Strange Journey Redux is a role-playing video game developed and published by Atlus. In Europe, it was published by Deep Silver. It is an enhanced port of Shin Megami Tensei: Strange Journey originally released for Nintendo DS and features voice acting, new illustrations, a new route and ending and, a new character."
+incomplete = true
 needs_system_files = true
 needs_shared_font = false
 
@@ -7,3 +8,13 @@ needs_shared_font = false
 title = "00040000001CD200"
 region = "usa"
 release_date = "2018-05-15"
+
+[[releases]]
+title = "00040000001CE100"
+region = "eur"
+release_date = "2018-05-18"
+
+[[releases]]
+title = "00040000001B2400"
+region = "jpn"
+release_date = "2017-10-26"
