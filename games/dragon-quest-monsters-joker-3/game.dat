@@ -1,0 +1,9 @@
+title = "Dragon Quest Monsters Joker 3"
+description = "Dragon Quest Monsters: Joker 3 (DQMJ3) is a role-playing video game developed by Square Enix and Tose and published  for the Nintendo 3DS. It is the sequel to Dragon Quest Monsters: Joker 2, and is the sixth game in the Dragon Quest Monsters series."
+needs_system_files = false
+needs_shared_font = false
+
+[[releases]]
+title = "000400000016AD00"
+region = "jpn"
+release_date = "2016-03-24"
