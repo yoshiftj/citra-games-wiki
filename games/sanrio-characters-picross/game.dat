@@ -8,3 +8,15 @@ game_type = "eshop"
 title = "00040000001D3100"
 region = "eur"
 release_date = "2018-06-28"
+
+title = "00040000001D3400"
+
+region = "usa"
+
+release_date = "2018-07-19"
+
+title = "00040000001D2A00"
+
+region = "jpn"
+
+release_date = "2018-04-25
